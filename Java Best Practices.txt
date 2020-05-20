@@ -1,0 +1,36 @@
+1. Code for interface, not for implementaion
+    - Always use interface type as a reference type.
+    - Alwasy use interface type as a return type.
+    - Always use interface type as a method argument.
+
+2. String Best Practices 
+    - Use StringBuilder or StringBuffer for string concatenation operations instead of '+' operator (Performance)
+    - Use equals method to comapre the string content and == method to compare the reference.
+    - Use equals method on known variable than on unknown e.g a="test",b=some user input , a.equals(b) is better than b.equals(a)
+    - Use valueof method instead of toString method 
+        - If object is never null then use toString method else use valueOf 
+    - Avoid using duplicate string literals 
+    - Use single quote to append character in SringBuffer or StringBuilder 
+    - Use chaining method to append rather than calling append method multiple time. 
+
+3. Use Switch statement instead of multiple if-else 
+
+4. Naming conventions 
+    - package should be named lowecase and only a word after each dot. 
+    - class should be noun and UpperCamelCase 
+    - method name should be verbs and should be lowerCamelCase.
+    - variable name should start with lowercase
+    - parameter name, member variable names, local variable should be return in lowerCamelCase.
+    - constant variable names should be UPPERCASE separated by underscore.
+    - abstract class names should start with Abstract e.g AbstractBean, AbstractShape
+    - exception names should end with Exception e.e ClassNotFoundException 
+    - enum should be spelled in UPPERCASE.
+    - generic type parameter should be upper case single letters. 
+        - T for type, E for collection elements, S is for service loaders and K,V are fpr map key value. 
+    - annotation names follow title case notaion. 
+        - can be adjective, verb or noun.
+
+5. Prefer Lambda expressions to Anonymous classes 
+    - 
+
+    
