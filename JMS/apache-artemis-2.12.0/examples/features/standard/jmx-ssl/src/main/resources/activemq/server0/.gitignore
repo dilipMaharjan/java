@@ -1,0 +1,6 @@
+/broker.xml
+/client-side-keystore.jks
+/client-side-truststore.jks
+/server-side-keystore.jks
+/server-side-truststore.jks
+/management.xml

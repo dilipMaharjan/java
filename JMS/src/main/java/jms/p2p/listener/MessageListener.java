@@ -11,7 +11,7 @@ import javax.naming.NamingException;
 
 import org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory;
 
-import jms.model.Patient;
+import jms.p2p.model.Patient;
 
 public class MessageListener implements javax.jms.MessageListener {
 

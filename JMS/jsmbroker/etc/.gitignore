@@ -1,0 +1,9 @@
+/artemis-roles.properties
+/artemis-users.properties
+/artemis.profile
+/bootstrap.xml
+/broker.xml
+/jolokia-access.xml
+/logging.properties
+/login.config
+/management.xml

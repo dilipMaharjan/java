@@ -8,7 +8,7 @@ import javax.naming.NamingException;
 
 import org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory;
 
-import jms.listener.MessageListener;
+import jms.p2p.listener.MessageListener;
 
 public class EligibilityApp {
 	public static void main(String[] args) throws NamingException {

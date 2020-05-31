@@ -2,7 +2,6 @@ package jms.pubsub.hr;
 
 import javax.jms.JMSContext;
 import javax.jms.JMSProducer;
-import javax.jms.Queue;
 import javax.jms.Topic;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;

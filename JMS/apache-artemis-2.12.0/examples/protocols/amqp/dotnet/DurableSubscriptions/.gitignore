@@ -1,0 +1,5 @@
+/amqp-durables.csproj
+/start-broker.sh
+/stop-broker.sh
+/run-example.sh
+/Program.cs

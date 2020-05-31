@@ -1,0 +1,11 @@
+/artemis-roles.properties
+/artemis-users.properties
+/bootstrap.xml
+/broker.xml
+/cert-roles.properties
+/cert-users.properties
+/client-side-keystore.jks
+/client-side-truststore.jks
+/server-side-keystore.jks
+/server-side-truststore.jks
+/login.config
